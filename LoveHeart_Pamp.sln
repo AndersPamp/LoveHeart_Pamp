@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveHeart_Pamp", "LoveHeart_Pamp\LoveHeart_Pamp.csproj", "{7D7C49CE-A029-428B-933E-A4F25249802A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveHeart", "LoveHeart_Pamp\LoveHeart.csproj", "{7D7C49CE-A029-428B-933E-A4F25249802A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

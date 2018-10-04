@@ -43,6 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Aardvark.cs" />
+    <Compile Include="Domain\Animal.cs" />
+    <Compile Include="Domain\Armadillo.cs" />
+    <Compile Include="Domain\Flyable.cs" />
+    <Compile Include="Domain\Journal.cs" />
+    <Compile Include="Domain\Kookaburra.cs" />
+    <Compile Include="Domain\Menu.cs" />
+    <Compile Include="Domain\Platypus.cs" />
+    <Compile Include="Domain\Swimable.cs" />
+    <Compile Include="Domain\TasmanianDevil.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
