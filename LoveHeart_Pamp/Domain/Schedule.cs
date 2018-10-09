@@ -6,17 +6,19 @@ using System.Threading.Tasks;
 
 namespace LoveHeart.Domain
 {
-    class Journal
+    class Schedule
     {
+        public DateTime AppointmentDate { get; set; }
         public Owner Owner { get; }
         public Animal Animal { get; }
-        public string Ailment { get; set; }
+        public string Problem { get; set; }
 
-        public Journal(Owner owner, Animal animal, string ailment)
+        public Schedule(DateTime appointmentDate, Owner owner, Animal animal, string problem)
         {
+            AppointmentDate = appointmentDate;
             Owner = owner;
             Animal = animal;
-            Ailment = ailment;
+            Problem = problem;
         }
     }
 }

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using LoveHeart.Domain;
+﻿using LoveHeart.Domain;
 
 namespace LoveHeart
 {
@@ -12,7 +7,7 @@ namespace LoveHeart
         static void Main(string[] args)
         {
             Menu menu = new Menu();
-            menu.LogInMenu();
+            menu.Menu1();
         }
     }
 }
